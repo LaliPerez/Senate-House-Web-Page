@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TGIF 113th Congress Senate Members</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<header>
+    <div class="container-fluid container-responsive img-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-responsive" src="LOGOTGIF.jpg" widht="340" height="118"></a>
+            </div>
+
+            <div class="col align-self-center nav justify-content-end m-5">
+                <a href="#">
+                    <span class="glyphicon glyphicon-envelope">
+                        <a href="info@tgif.net"><span class="info@tgif.net"></span></a> <a
+                            href="mailto: info@tgif.net">info@tgif.net</a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home-starter-page.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Congress 113</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="senate-starter-page.html">Senate</a>
+                            <a class="dropdown-item" href="house-starter-page.html">House</a>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Attendance</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="senate-starter-page.html">Senate</a>
+                            <a class="dropdown-item" href="house-starter-page.html">House</a>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Party Loyalty</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="senate-starter-page.html">Senate</a>
+                            <a class="dropdown-item" href="house-starter-page.html">House</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+</header>
+
+<body>
+    <div class="container-fluid container-responsive">
+        <h2>Senate</h2>
+        <p>The major power of the House is to pass federal legislation that affects the entire country, although its
+            bills must also be passed by the Senate and further agreed to by the U.S. President before becoming law
+            (unless both the House and Senate re-pass the legislation with a two-thirds majority in each chamber).
+            The
+            House has some exclusive powers: the power to initiate revenue bills, to impeach officials (impeached
+            officials are subsequently tried in the Senate), and to elect the U.S. President in case there is no
+            majority in the Electoral College.</p>
+        <p>Each U.S. state is represented in the House in proportion to its population as measured in the census,
+            but
+            every state is entitled to at least one representative. </p>
+    </div>
+    <div class="form-group">
+        <section>
+            <div class="card-body" id="filter">
+                <div class="col-sm-8">
+                    <label>Filter by Party:&nbsp;</label>
+                    <div class="custom-control custom-switch col-2">
+                        <input type="checkbox" class="custom-control-input" name="party-filter" value="R"
+                            onchange='createDropDown()' id="customSwitch1" checked>
+                        <label class="custom-control-label" for="customSwitch1">Republican</label>
+                    </div>
+                    <div class="custom-control custom-switch	col-2">
+                        <input type="checkbox" class="custom-control-input" name="party-filter" value="D"
+                            onchange='createDropDown()' id="customSwitch2" checked>
+
+                        <label class="custom-control-label" for="customSwitch2">Democrat</label>
+                    </div>
+                    <div class="custom-control custom-switch	col-2">
+                        <input type="checkbox" class="custom-control-input" name="party-filter" value="I"
+                            onchange='createDropDown()' id="customSwitch3" checked>
+                        <label class="custom-control-label" for="customSwitch3">Independet</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                    <label>Filter by State:&nbsp;</label>
+                <select class="selectpicker show-menu-arrow show-tick" data-live-search="true" data-style="btn-info"
+                    id="selectState" tabindex="-98" onchange='createDropDown()'>
+                    <option value="All">-- All States --</option>
+                    <option value="AK">AK</option>
+                    <option value="AL">AL</option>
+                    <option value="AR">AR</option>
+                    <option value="AZ">AZ</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DE">DE</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="IA">IA</option>
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="MA">MA</option>
+                    <option value="MD">MD</option>
+                    <option value="ME">ME</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MO">MO</option>
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="NC">NC</option>
+                    <option value="ND">ND</option>
+                    <option value="NE">NE</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>
+                    <option value="NV">NV</option>
+                    <option value="NY">NY</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>
+                    <option value="PA">PA</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VA">VA</option>
+                    <option value="VT">VT</option>
+                    <option value="WA">WA</option>
+                    <option value="WI">WI</option>
+                    <option value="WV">WV</option>
+                    <option value="WY">WY</option>
+                </select>
+            </div>
+        </section>
+    </div>
+    <section>
+        <div class="container-fluid">
+            <div class="table-responsive">
+                <table id="data-table" class=" table-striped table-bordered table table-hover ">
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="row p-3 border bg-light ">
+        <div class="col text-center"> <span class="glyphicon glyphicon-copyright-mark"></span> 2016 All Rights
+            Reserved</div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="senate.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

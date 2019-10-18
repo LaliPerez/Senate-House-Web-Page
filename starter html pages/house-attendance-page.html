@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TGIF 113th Congress House Members</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid container-responsive img-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="img-responsive" src="LOGOTGIF.jpg" widht="340" height="118"></a>
+                </div>
+
+                <div class="col align-self-center nav justify-content-end m-5">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-envelope">
+                            <a href="info@tgif.net"><span class="info@tgif.net"></span></a> <a
+                                href="mailto: info@tgif.net">info@tgif.net</a>
+                </div>
+            </div>
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="home-starter-page.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Congress 113</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="senate-starter-page.html">Senate</a>
+                                <a class="dropdown-item" href="house-starter-page.html">House</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Attendance</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="senate-attendance-page.html">Senate</a>
+                                <a class="dropdown-item" href="house-attendance-page.html">House</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Party Loyalty</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="senate-loyalty-page.html">Senate</a>
+                                <a class="dropdown-item" href="house-loyalty-page.html">House</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <div class="container-fluid container-responsive">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Attendance</h2>
+                <p>The Constitution specifies that a majority of members constitutes a quorum to do business in each
+                    house. Representatives and senators rarely force the presence of a quorum by demanding quorum
+                    calls;
+                    thus, in most cases, debates continue even if a majority is not present.</p>
+
+                <p>The Senate uses roll-call votes; a clerk calls out the names of all the senators, each senator
+                    stating "aye" or "no" when his or her name is announced. The House reserves roll-call votes for
+                    the
+                    most formal matters, as a roll-call of all 435 representatives takes quite some time; normally,
+                    members vote by electronic device. In the case of a tie, the motion in question fails. In the
+                    Senate, the Vice President may (if present) cast the tiebreaking vote.</p>
+            </div>
+
+            <div class="col-sm-6">
+                <h2>House at a glance</h2>
+                <div class="container-fluid">
+                    <div class="table-responsive text-center">
+                        <table id="senate-table-glance" class="table-striped table-bordered table table-hover">
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid container-responsive">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Least Engaged (Bottom 10% Attendance)</h2>
+                <div class="container-fluid">
+                    <div class="table-responsive text-center">
+                        <table id="least-engaged" class="table-striped table-bordered table table-hover">
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h2>Most Engaged (Top 10% Attendance)</h2>
+                <div class="container-fluid">
+                    <div class="table-responsive text-center">
+                        <table id="most-engaged" class="table-striped table-bordered table table-hover">
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="row p-3 border bg-light ">
+        <div class="col text-center"> <span class="glyphicon glyphicon-copyright-mark"></span> 2016 All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="./estadisticas.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="housenuevo.js"></script>
+    <script src="mainhouse.js"></script>
+    <script src="tablasPCT.js"></script>
+
+</body>
+
+
+</html>
